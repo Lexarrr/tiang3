@@ -44,6 +44,8 @@ public class HelloController {
         Triangle t = Triangle.parseTr(s);
 
         trinRes.setText(String.valueOf(t.getArea()));
+        String[] a = new String[]{};
+
     }
 
 }
