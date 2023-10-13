@@ -21,24 +21,24 @@ public class HelloApplication extends Application {
         stage.show();
 
 
-
-        Group g = new Group();
-
-        FileChooser fileChooser = new FileChooser();
-
-        Button button = new Button("Select File");
-        g.getChildren().add(button);
-
-        button.setOnAction(e -> {
-            fileChooser.setInitialDirectory(new File("C:\\Users\\Etc21\\IdeaProjects\\Trin3"));
-            fileChooser.setTitle("select file");
-            fileChooser.getExtensionFilters().addAll(
-                    new FileChooser.ExtensionFilter("Text Files", "*.txt")
-
-            );
-            fileChooser.showOpenDialog(stage);
-
-        });
+//
+//        Group g = new Group();
+//
+//        FileChooser fileChooser = new FileChooser();
+//
+//        Button button = new Button("Select File");
+//        g.getChildren().add(button);
+//
+//        button.setOnAction(e -> {
+//            fileChooser.setInitialDirectory(new File("C:\\Users\\Etc21\\IdeaProjects\\Trin3"));
+//            fileChooser.setTitle("select file");
+//            fileChooser.getExtensionFilters().addAll(
+//                    new FileChooser.ExtensionFilter("Text Files", "*.txt")
+//
+//            );
+//            fileChooser.showOpenDialog(stage);
+//
+//        });
 
     }
 
